@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="IMKPickColorCarViewController">
+            <connections>
+                <outlet property="collectionView" destination="H75-t7-NTr" id="yHW-Jm-drD"/>
+                <outlet property="menuRightConstraint" destination="4th-Sp-mXR" id="gXL-az-h0H"/>
+                <outlet property="menuView" destination="wbN-P0-AT3" id="pCt-B8-PMf"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wbN-P0-AT3" userLabel="Menu View">
+                    <rect key="frame" x="375" y="65" width="65" height="602"/>
+                    <subviews>
+                        <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="H75-t7-NTr">
+                            <rect key="frame" x="5" y="0.0" width="60" height="602"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="eK7-jB-RP5">
+                                <size key="itemSize" width="50" height="50"/>
+                                <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                            </collectionViewFlowLayout>
+                            <connections>
+                                <outlet property="dataSource" destination="-1" id="jBa-XS-HJA"/>
+                                <outlet property="delegate" destination="-1" id="Iff-88-gDs"/>
+                            </connections>
+                        </collectionView>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="H75-t7-NTr" firstAttribute="leading" secondItem="wbN-P0-AT3" secondAttribute="leading" constant="5" id="AkI-PC-Wa4"/>
+                        <constraint firstItem="H75-t7-NTr" firstAttribute="top" secondItem="wbN-P0-AT3" secondAttribute="top" id="DaB-CN-G7y"/>
+                        <constraint firstAttribute="bottom" secondItem="H75-t7-NTr" secondAttribute="bottom" id="PdM-u2-icd"/>
+                        <constraint firstAttribute="trailing" secondItem="H75-t7-NTr" secondAttribute="trailing" id="Z4n-mm-npb"/>
+                        <constraint firstAttribute="width" constant="65" id="tYK-rx-AC5"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="wbN-P0-AT3" secondAttribute="trailing" constant="-65" id="4th-Sp-mXR"/>
+                <constraint firstAttribute="bottom" secondItem="wbN-P0-AT3" secondAttribute="bottom" id="I0y-c0-z76"/>
+                <constraint firstItem="wbN-P0-AT3" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="65" id="KCw-2b-w2C"/>
+            </constraints>
+            <point key="canvasLocation" x="35.5" y="-579.5"/>
+        </view>
+    </objects>
+</document>

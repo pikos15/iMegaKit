@@ -1,0 +1,604 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B52DF3051F24914B0069C4EE /* IMKCoreDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B52DF3041F24914B0069C4EE /* IMKCoreDataManager.m */; };
+		B52DF3081F2491AC0069C4EE /* IMKCloudeKitManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B52DF3071F2491AC0069C4EE /* IMKCloudeKitManager.m */; };
+		B52DF30B1F255DFB0069C4EE /* IMKListCarTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B52DF30A1F255DFB0069C4EE /* IMKListCarTableViewCell.m */; };
+		B52DF30F1F257D820069C4EE /* IMKBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B52DF30E1F257D820069C4EE /* IMKBaseViewController.m */; };
+		B587C7DC1F1B632E00F257B6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B587C7C21F1B632E00F257B6 /* AppDelegate.m */; };
+		B587C7DE1F1B632E00F257B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B587C7D21F1B632E00F257B6 /* Assets.xcassets */; };
+		B587C7DF1F1B632E00F257B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B587C7D31F1B632E00F257B6 /* LaunchScreen.storyboard */; };
+		B587C7E01F1B632E00F257B6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B587C7D51F1B632E00F257B6 /* Main.storyboard */; };
+		B587C7E11F1B632E00F257B6 /* iMegaKit.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B587C7D71F1B632E00F257B6 /* iMegaKit.xcdatamodeld */; };
+		B587C7E21F1B632E00F257B6 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B587C7DA1F1B632E00F257B6 /* Info.plist */; };
+		B587C7E31F1B632E00F257B6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B587C7DB1F1B632E00F257B6 /* main.m */; };
+		B58A8B9A1F23ABBA00661CED /* IMKPickColorCarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B58A8B981F23ABBA00661CED /* IMKPickColorCarViewController.m */; };
+		B58A8B9B1F23ABBA00661CED /* IMKPickColorCarViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B58A8B991F23ABBA00661CED /* IMKPickColorCarViewController.xib */; };
+		B58A8B9F1F23AFE900661CED /* IMKPickColorCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B58A8B9D1F23AFE900661CED /* IMKPickColorCell.m */; };
+		B58A8BA01F23AFE900661CED /* IMKPickColorCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B58A8B9E1F23AFE900661CED /* IMKPickColorCell.xib */; };
+		B593D7E51F211C7B0075B0B0 /* IMKAddCarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B593D7E41F211C7B0075B0B0 /* IMKAddCarViewController.m */; };
+		B593D7E81F211F0E0075B0B0 /* ListCarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B593D7E71F211F0E0075B0B0 /* ListCarViewController.m */; };
+		B5A7B4A91F21F17700EF6104 /* IMKPickDriverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5A7B4A71F21F17700EF6104 /* IMKPickDriverViewController.m */; };
+		B5A7B4AA1F21F17700EF6104 /* IMKPickDriverViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5A7B4A81F21F17700EF6104 /* IMKPickDriverViewController.xib */; };
+		B5E289C11F238B7600183C52 /* IMKPickDriverCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B5E289BF1F238B7600183C52 /* IMKPickDriverCell.m */; };
+		B5E289C21F238B7600183C52 /* IMKPickDriverCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5E289C01F238B7600183C52 /* IMKPickDriverCell.xib */; };
+		B5E289C51F2390EA00183C52 /* IMKInfoHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = B5E289C41F2390EA00183C52 /* IMKInfoHelper.m */; };
+		B5F4EA351F233EFE002125C6 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5F4EA341F233EFE002125C6 /* CloudKit.framework */; };
+		CD6BBA2060B9798D452D2936 /* libPods-iMegaKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 78BFDB5BEB89347E4DDF6835 /* libPods-iMegaKit.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2377BCFA2386F03B4F4AD4C1 /* Pods-iMegaKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iMegaKit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iMegaKit/Pods-iMegaKit.debug.xcconfig"; sourceTree = "<group>"; };
+		78BFDB5BEB89347E4DDF6835 /* libPods-iMegaKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iMegaKit.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B52DF3031F24914B0069C4EE /* IMKCoreDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMKCoreDataManager.h; sourceTree = "<group>"; };
+		B52DF3041F24914B0069C4EE /* IMKCoreDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMKCoreDataManager.m; sourceTree = "<group>"; };
+		B52DF3061F2491AC0069C4EE /* IMKCloudeKitManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMKCloudeKitManager.h; sourceTree = "<group>"; };
+		B52DF3071F2491AC0069C4EE /* IMKCloudeKitManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMKCloudeKitManager.m; sourceTree = "<group>"; };
+		B52DF3091F255DFB0069C4EE /* IMKListCarTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMKListCarTableViewCell.h; sourceTree = "<group>"; };
+		B52DF30A1F255DFB0069C4EE /* IMKListCarTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMKListCarTableViewCell.m; sourceTree = "<group>"; };
+		B52DF30D1F257D820069C4EE /* IMKBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMKBaseViewController.h; sourceTree = "<group>"; };
+		B52DF30E1F257D820069C4EE /* IMKBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMKBaseViewController.m; sourceTree = "<group>"; };
+		B587C7A21F1B628500F257B6 /* iMegaKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iMegaKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B587C7C11F1B632E00F257B6 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B587C7C21F1B632E00F257B6 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B587C7D21F1B632E00F257B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B587C7D41F1B632E00F257B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B587C7D61F1B632E00F257B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B587C7D81F1B632E00F257B6 /* iMegaKit.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = iMegaKit.xcdatamodel; sourceTree = "<group>"; };
+		B587C7DA1F1B632E00F257B6 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B587C7DB1F1B632E00F257B6 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B58A8B971F23ABBA00661CED /* IMKPickColorCarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMKPickColorCarViewController.h; sourceTree = "<group>"; };
+		B58A8B981F23ABBA00661CED /* IMKPickColorCarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMKPickColorCarViewController.m; sourceTree = "<group>"; };
+		B58A8B991F23ABBA00661CED /* IMKPickColorCarViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IMKPickColorCarViewController.xib; sourceTree = "<group>"; };
+		B58A8B9C1F23AFE900661CED /* IMKPickColorCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMKPickColorCell.h; sourceTree = "<group>"; };
+		B58A8B9D1F23AFE900661CED /* IMKPickColorCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMKPickColorCell.m; sourceTree = "<group>"; };
+		B58A8B9E1F23AFE900661CED /* IMKPickColorCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IMKPickColorCell.xib; sourceTree = "<group>"; };
+		B593D7E31F211C7B0075B0B0 /* IMKAddCarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMKAddCarViewController.h; sourceTree = "<group>"; };
+		B593D7E41F211C7B0075B0B0 /* IMKAddCarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMKAddCarViewController.m; sourceTree = "<group>"; };
+		B593D7E61F211F0E0075B0B0 /* ListCarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ListCarViewController.h; path = "../Start Screens/ListCarViewController.h"; sourceTree = "<group>"; };
+		B593D7E71F211F0E0075B0B0 /* ListCarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ListCarViewController.m; path = "../Start Screens/ListCarViewController.m"; sourceTree = "<group>"; };
+		B5A7B4A61F21F17700EF6104 /* IMKPickDriverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMKPickDriverViewController.h; sourceTree = "<group>"; };
+		B5A7B4A71F21F17700EF6104 /* IMKPickDriverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMKPickDriverViewController.m; sourceTree = "<group>"; };
+		B5A7B4A81F21F17700EF6104 /* IMKPickDriverViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IMKPickDriverViewController.xib; sourceTree = "<group>"; };
+		B5E289BE1F238B7600183C52 /* IMKPickDriverCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMKPickDriverCell.h; sourceTree = "<group>"; };
+		B5E289BF1F238B7600183C52 /* IMKPickDriverCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMKPickDriverCell.m; sourceTree = "<group>"; };
+		B5E289C01F238B7600183C52 /* IMKPickDriverCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IMKPickDriverCell.xib; sourceTree = "<group>"; };
+		B5E289C31F2390EA00183C52 /* IMKInfoHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMKInfoHelper.h; sourceTree = "<group>"; };
+		B5E289C41F2390EA00183C52 /* IMKInfoHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMKInfoHelper.m; sourceTree = "<group>"; };
+		B5F4EA321F233EFB002125C6 /* iMegaKit.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = iMegaKit.entitlements; sourceTree = "<group>"; };
+		B5F4EA341F233EFE002125C6 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
+		BDA44AD8C56E203D8ADBDDB6 /* Pods-iMegaKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iMegaKit.release.xcconfig"; path = "Pods/Target Support Files/Pods-iMegaKit/Pods-iMegaKit.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B587C79F1F1B628500F257B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5F4EA351F233EFE002125C6 /* CloudKit.framework in Frameworks */,
+				CD6BBA2060B9798D452D2936 /* libPods-iMegaKit.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B52DF30C1F257D490069C4EE /* Base Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B52DF30D1F257D820069C4EE /* IMKBaseViewController.h */,
+				B52DF30E1F257D820069C4EE /* IMKBaseViewController.m */,
+			);
+			path = "Base Controllers";
+			sourceTree = "<group>";
+		};
+		B587C7991F1B628500F257B6 = {
+			isa = PBXGroup;
+			children = (
+				B587C7A41F1B628500F257B6 /* iMegaKit */,
+				B587C7A31F1B628500F257B6 /* Products */,
+				B5F4EA331F233EFE002125C6 /* Frameworks */,
+				F3FA48E5A095B1E47884D4B5 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		B587C7A31F1B628500F257B6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B587C7A21F1B628500F257B6 /* iMegaKit.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B587C7A41F1B628500F257B6 /* iMegaKit */ = {
+			isa = PBXGroup;
+			children = (
+				B5F4EA321F233EFB002125C6 /* iMegaKit.entitlements */,
+				B587C7BF1F1B632E00F257B6 /* Classes */,
+				B587C7D11F1B632E00F257B6 /* Resourses */,
+				B587C7D91F1B632E00F257B6 /* Supporting Files */,
+			);
+			path = iMegaKit;
+			sourceTree = "<group>";
+		};
+		B587C7BF1F1B632E00F257B6 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				B587C7C01F1B632E00F257B6 /* Application */,
+				B587C7C41F1B632E00F257B6 /* Data Managers */,
+				B587C7C51F1B632E00F257B6 /* Helpers */,
+				B587C7C71F1B632E00F257B6 /* Network Services */,
+				B587C7C81F1B632E00F257B6 /* View Controllers */,
+				B587C7D01F1B632E00F257B6 /* Views */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		B587C7C01F1B632E00F257B6 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				B587C7C11F1B632E00F257B6 /* AppDelegate.h */,
+				B587C7C21F1B632E00F257B6 /* AppDelegate.m */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		B587C7C41F1B632E00F257B6 /* Data Managers */ = {
+			isa = PBXGroup;
+			children = (
+				B52DF3031F24914B0069C4EE /* IMKCoreDataManager.h */,
+				B52DF3041F24914B0069C4EE /* IMKCoreDataManager.m */,
+			);
+			path = "Data Managers";
+			sourceTree = "<group>";
+		};
+		B587C7C51F1B632E00F257B6 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				B5E289C31F2390EA00183C52 /* IMKInfoHelper.h */,
+				B5E289C41F2390EA00183C52 /* IMKInfoHelper.m */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		B587C7C71F1B632E00F257B6 /* Network Services */ = {
+			isa = PBXGroup;
+			children = (
+				B52DF3061F2491AC0069C4EE /* IMKCloudeKitManager.h */,
+				B52DF3071F2491AC0069C4EE /* IMKCloudeKitManager.m */,
+			);
+			path = "Network Services";
+			sourceTree = "<group>";
+		};
+		B587C7C81F1B632E00F257B6 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B52DF30C1F257D490069C4EE /* Base Controllers */,
+				B587C7CD1F1B632E00F257B6 /* Menu Screens */,
+				B587C7CF1F1B632E00F257B6 /* Support Screens */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		B587C7CD1F1B632E00F257B6 /* Menu Screens */ = {
+			isa = PBXGroup;
+			children = (
+				B593D7E31F211C7B0075B0B0 /* IMKAddCarViewController.h */,
+				B593D7E41F211C7B0075B0B0 /* IMKAddCarViewController.m */,
+				B593D7E61F211F0E0075B0B0 /* ListCarViewController.h */,
+				B593D7E71F211F0E0075B0B0 /* ListCarViewController.m */,
+			);
+			path = "Menu Screens";
+			sourceTree = "<group>";
+		};
+		B587C7CF1F1B632E00F257B6 /* Support Screens */ = {
+			isa = PBXGroup;
+			children = (
+				B5A7B4A61F21F17700EF6104 /* IMKPickDriverViewController.h */,
+				B5A7B4A71F21F17700EF6104 /* IMKPickDriverViewController.m */,
+				B5A7B4A81F21F17700EF6104 /* IMKPickDriverViewController.xib */,
+				B58A8B971F23ABBA00661CED /* IMKPickColorCarViewController.h */,
+				B58A8B981F23ABBA00661CED /* IMKPickColorCarViewController.m */,
+				B58A8B991F23ABBA00661CED /* IMKPickColorCarViewController.xib */,
+			);
+			path = "Support Screens";
+			sourceTree = "<group>";
+		};
+		B587C7D01F1B632E00F257B6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B5E289BD1F238B4D00183C52 /* Support View and cels */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B587C7D11F1B632E00F257B6 /* Resourses */ = {
+			isa = PBXGroup;
+			children = (
+				B587C7D21F1B632E00F257B6 /* Assets.xcassets */,
+				B587C7D31F1B632E00F257B6 /* LaunchScreen.storyboard */,
+				B587C7D51F1B632E00F257B6 /* Main.storyboard */,
+				B587C7D71F1B632E00F257B6 /* iMegaKit.xcdatamodeld */,
+			);
+			path = Resourses;
+			sourceTree = "<group>";
+		};
+		B587C7D91F1B632E00F257B6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B587C7DA1F1B632E00F257B6 /* Info.plist */,
+				B587C7DB1F1B632E00F257B6 /* main.m */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B5E289BD1F238B4D00183C52 /* Support View and cels */ = {
+			isa = PBXGroup;
+			children = (
+				B5E289BE1F238B7600183C52 /* IMKPickDriverCell.h */,
+				B5E289BF1F238B7600183C52 /* IMKPickDriverCell.m */,
+				B5E289C01F238B7600183C52 /* IMKPickDriverCell.xib */,
+				B58A8B9C1F23AFE900661CED /* IMKPickColorCell.h */,
+				B58A8B9D1F23AFE900661CED /* IMKPickColorCell.m */,
+				B58A8B9E1F23AFE900661CED /* IMKPickColorCell.xib */,
+				B52DF3091F255DFB0069C4EE /* IMKListCarTableViewCell.h */,
+				B52DF30A1F255DFB0069C4EE /* IMKListCarTableViewCell.m */,
+			);
+			path = "Support View and cels";
+			sourceTree = "<group>";
+		};
+		B5F4EA331F233EFE002125C6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B5F4EA341F233EFE002125C6 /* CloudKit.framework */,
+				78BFDB5BEB89347E4DDF6835 /* libPods-iMegaKit.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F3FA48E5A095B1E47884D4B5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2377BCFA2386F03B4F4AD4C1 /* Pods-iMegaKit.debug.xcconfig */,
+				BDA44AD8C56E203D8ADBDDB6 /* Pods-iMegaKit.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B587C7A11F1B628500F257B6 /* iMegaKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B587C7BC1F1B628500F257B6 /* Build configuration list for PBXNativeTarget "iMegaKit" */;
+			buildPhases = (
+				0186DC5923560D7576FE0499 /* [CP] Check Pods Manifest.lock */,
+				B587C79E1F1B628500F257B6 /* Sources */,
+				B587C79F1F1B628500F257B6 /* Frameworks */,
+				B587C7A01F1B628500F257B6 /* Resources */,
+				30D7CD58F5F322A83CDF3F89 /* [CP] Embed Pods Frameworks */,
+				DB0D0814D0EFF3D4ACC3BFF2 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iMegaKit;
+			productName = iMegaKit;
+			productReference = B587C7A21F1B628500F257B6 /* iMegaKit.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B587C79A1F1B628500F257B6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = MegaKit;
+				TargetAttributes = {
+					B587C7A11F1B628500F257B6 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = D82KBX958J;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+							com.apple.iCloud = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = B587C79D1F1B628500F257B6 /* Build configuration list for PBXProject "iMegaKit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B587C7991F1B628500F257B6;
+			productRefGroup = B587C7A31F1B628500F257B6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B587C7A11F1B628500F257B6 /* iMegaKit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B587C7A01F1B628500F257B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B58A8BA01F23AFE900661CED /* IMKPickColorCell.xib in Resources */,
+				B5E289C21F238B7600183C52 /* IMKPickDriverCell.xib in Resources */,
+				B58A8B9B1F23ABBA00661CED /* IMKPickColorCarViewController.xib in Resources */,
+				B587C7E21F1B632E00F257B6 /* Info.plist in Resources */,
+				B587C7E01F1B632E00F257B6 /* Main.storyboard in Resources */,
+				B587C7DE1F1B632E00F257B6 /* Assets.xcassets in Resources */,
+				B587C7DF1F1B632E00F257B6 /* LaunchScreen.storyboard in Resources */,
+				B5A7B4AA1F21F17700EF6104 /* IMKPickDriverViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0186DC5923560D7576FE0499 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		30D7CD58F5F322A83CDF3F89 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iMegaKit/Pods-iMegaKit-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DB0D0814D0EFF3D4ACC3BFF2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iMegaKit/Pods-iMegaKit-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B587C79E1F1B628500F257B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B52DF3081F2491AC0069C4EE /* IMKCloudeKitManager.m in Sources */,
+				B58A8B9A1F23ABBA00661CED /* IMKPickColorCarViewController.m in Sources */,
+				B58A8B9F1F23AFE900661CED /* IMKPickColorCell.m in Sources */,
+				B593D7E51F211C7B0075B0B0 /* IMKAddCarViewController.m in Sources */,
+				B5A7B4A91F21F17700EF6104 /* IMKPickDriverViewController.m in Sources */,
+				B587C7E11F1B632E00F257B6 /* iMegaKit.xcdatamodeld in Sources */,
+				B587C7E31F1B632E00F257B6 /* main.m in Sources */,
+				B52DF3051F24914B0069C4EE /* IMKCoreDataManager.m in Sources */,
+				B587C7DC1F1B632E00F257B6 /* AppDelegate.m in Sources */,
+				B52DF30F1F257D820069C4EE /* IMKBaseViewController.m in Sources */,
+				B593D7E81F211F0E0075B0B0 /* ListCarViewController.m in Sources */,
+				B52DF30B1F255DFB0069C4EE /* IMKListCarTableViewCell.m in Sources */,
+				B5E289C11F238B7600183C52 /* IMKPickDriverCell.m in Sources */,
+				B5E289C51F2390EA00183C52 /* IMKInfoHelper.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B587C7D31F1B632E00F257B6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B587C7D41F1B632E00F257B6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		B587C7D51F1B632E00F257B6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B587C7D61F1B632E00F257B6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B587C7BA1F1B628500F257B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B587C7BB1F1B628500F257B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B587C7BD1F1B628500F257B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2377BCFA2386F03B4F4AD4C1 /* Pods-iMegaKit.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = iMegaKit/iMegaKit.entitlements;
+				DEVELOPMENT_TEAM = D82KBX958J;
+				INFOPLIST_FILE = "$(SRCROOT)/iMegaKit/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.daopikos.icloud;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B587C7BE1F1B628500F257B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BDA44AD8C56E203D8ADBDDB6 /* Pods-iMegaKit.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = iMegaKit/iMegaKit.entitlements;
+				DEVELOPMENT_TEAM = D82KBX958J;
+				INFOPLIST_FILE = "$(SRCROOT)/iMegaKit/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.daopikos.icloud;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B587C79D1F1B628500F257B6 /* Build configuration list for PBXProject "iMegaKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B587C7BA1F1B628500F257B6 /* Debug */,
+				B587C7BB1F1B628500F257B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B587C7BC1F1B628500F257B6 /* Build configuration list for PBXNativeTarget "iMegaKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B587C7BD1F1B628500F257B6 /* Debug */,
+				B587C7BE1F1B628500F257B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B587C7D71F1B632E00F257B6 /* iMegaKit.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B587C7D81F1B632E00F257B6 /* iMegaKit.xcdatamodel */,
+			);
+			currentVersion = B587C7D81F1B632E00F257B6 /* iMegaKit.xcdatamodel */;
+			path = iMegaKit.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B587C79A1F1B628500F257B6 /* Project object */;
+}

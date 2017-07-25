@@ -1,0 +1,14 @@
+PODS:
+  - Ensembles (1.6.1):
+    - Ensembles/Core (= 1.6.1)
+  - Ensembles/Core (1.6.1)
+
+DEPENDENCIES:
+  - Ensembles (~> 1.0)
+
+SPEC CHECKSUMS:
+  Ensembles: 3725562044c8d4c518b4287d10076e5a28c96d0d
+
+PODFILE CHECKSUM: 4efc0e6d95c607e5980eedfb99a5076e151cb30e
+
+COCOAPODS: 1.1.1
